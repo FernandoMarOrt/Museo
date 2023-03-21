@@ -14,4 +14,9 @@ final public class Vigilante extends Empleado {
         super(nombreE, nif);
     }
 
+    public static void Vigilar(Vigilante vigilante) {
+
+        System.out.println("El vigilante esta vigilando");
+    }
+
 }

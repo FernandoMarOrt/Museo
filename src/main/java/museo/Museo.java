@@ -58,8 +58,31 @@ public class Museo {
 
    
     
+    public void contratarEmpleado(Empleado emp) {
+        
+        this.listaEmpleados.add(emp);
+        
+    }
     
-
+    public void despedirEmpleado(Empleado emp) {
+        
+        this.listaEmpleados.remove(emp);
+        
+    }
+    
+    
+    public void añadirSala(Sala sala) {
+        
+        this.listaSalas.add(sala);
+        
+    }
+    
+    public void quitarSala(Sala sala) {
+        
+        this.listaSalas.remove(sala);
+        
+    }
+    
     
     
 

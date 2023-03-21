@@ -14,4 +14,9 @@ final public class Monitor extends Empleado {
         super(nombreE, nif);
     }
 
+    public static void Monitorear(Monitor monitor) {
+
+        System.out.println("El monitor esta monitoreando");
+    }
+
 }
